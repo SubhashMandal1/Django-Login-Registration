@@ -21,4 +21,5 @@ from signup_log import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='signup_login'),
+    path('check_username/', views.check_username, name='check_username'),
 ]
