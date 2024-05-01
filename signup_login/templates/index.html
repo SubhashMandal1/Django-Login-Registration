@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Login and Registration</title>
+    <link rel="stylesheet" type='text/css' href={% static 'style.css' %}/>
+<<<<<<< HEAD
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+=======
+>>>>>>> 0e1be4d2f8d6cc81c1ae890b41b7f410249149cb
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+<<<<<<< HEAD
+            <form action="" method="POST" id="myForm" >{% csrf_token %}
+=======
+            <form action="#">
+>>>>>>> 0e1be4d2f8d6cc81c1ae890b41b7f410249149cb
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+<<<<<<< HEAD
+                    <input type="text" id="username" name="username" required>
+=======
+                    <input type="text" required>
+>>>>>>> 0e1be4d2f8d6cc81c1ae890b41b7f410249149cb
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+<<<<<<< HEAD
+                    <input type="email" id="email" name="email" required> 
+=======
+                    <input type="email" required>
+>>>>>>> 0e1be4d2f8d6cc81c1ae890b41b7f410249149cb
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+<<<<<<< HEAD
+                    <input type="password" id="password" name="password" required>
+=======
+                    <input type="password" required>
+>>>>>>> 0e1be4d2f8d6cc81c1ae890b41b7f410249149cb
+                    <label>Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+<<<<<<< HEAD
+                    <input type="password" id="conpass" name="conpass" required >
+=======
+                    <input type="password" required>
+>>>>>>> 0e1be4d2f8d6cc81c1ae890b41b7f410249149cb
+                    <label>Confirm Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox" required>
+                        I agree to the terms & conditions.
+                    </label>
+                    
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 0e1be4d2f8d6cc81c1ae890b41b7f410249149cb
+    <script src={% static 'script.js' %}></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
