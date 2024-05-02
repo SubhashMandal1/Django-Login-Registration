@@ -6,7 +6,7 @@ from django.contrib import messages
 
 # Create your views here.
 
-def index(request):
+def register(request):
     if request.method == 'POST':
         mail = request.POST['email']
         user = request.POST['username']
@@ -24,3 +24,8 @@ def check_username(request):
         print(username)
         exists = UserCreds.objects.filter(username=username).exists()
         return JsonResponse({'exists': exists})
+
+
+def login(request):
+    if request.method == 'POST':
+        mail = request.POST['email']
